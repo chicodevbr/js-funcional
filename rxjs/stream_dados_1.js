@@ -8,3 +8,7 @@ function gerarNumeros(fn) {
 gerarNumeros((numero) => {
   console.log(numero * 2);
 });
+
+gerarNumeros((a) => {
+  console.log(a + 100);
+});
